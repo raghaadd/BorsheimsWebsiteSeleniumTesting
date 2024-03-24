@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="none" name="Failed suite [Suite]">
+  <parameter name="testCaseNumber" value="3"/>
+  <test parallel="none" name="Test1(failed)">
+    <parameter name="testCaseNumber" value="1"/>
+    <classes>
+      <class name="test.BorsheimsTestCase2">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+          <include name="registerInformation" invocation-numbers="1 2 3 4 5"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.BorsheimsTestCase2 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test parallel="none" name="Test2(failed)">
+    <parameter name="testCaseNumber" value="2"/>
+    <classes>
+      <class name="test.BorsheimsTestCase2">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+          <include name="registerInformation" invocation-numbers="0 2 3 4 5"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.BorsheimsTestCase2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test parallel="none" name="Test3(failed)">
+    <parameter name="testCaseNumber" value="3"/>
+    <classes>
+      <class name="test.BorsheimsTestCase2">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+          <include name="setUpTest"/>
+          <include name="registerInformation" invocation-numbers="0 1 3 4 5"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- test.BorsheimsTestCase2 -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
