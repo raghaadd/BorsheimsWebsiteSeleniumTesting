@@ -88,35 +88,43 @@ public class ExeclUtilsss {
         }
         return cellData;
     }
-    public void writeBagPageToExcel(String[][] valueToWrite) throws Exception {
+    
+    public void writeBagPageToExcel(String[][] valueToWrite, String filePath) throws Exception {
         // Create a new workbook
         XSSFWorkbook workbook = new XSSFWorkbook();
         // Create a new sheet
         XSSFSheet sheet = workbook.createSheet("bagPage");
 
-        // Iterate over the 2D array
-        for (int i = 0; i < valueToWrite.length; i++) {
-            // Create a new row
-            XSSFRow row = sheet.createRow(i);
-            // Iterate over each element in the inner array
-            for (int j = 0; j < valueToWrite[i].length; j++) {
-                // Create a new cell and set its value
-                XSSFCell cell = row.createCell(j);
-                cell.setCellValue(valueToWrite[i][j]);
+        try {
+            // Iterate over the 2D array
+            for (int i = 0; i < valueToWrite.length; i++) {
+                // Create a new row
+                XSSFRow row = sheet.createRow(i);
+                // Iterate over each element in the inner array
+                for (int j = 0; j < valueToWrite[i].length; j++) {
+                    // Create a new cell and set its value
+                    XSSFCell cell = row.createCell(j);
+                    cell.setCellValue(valueToWrite[i][j]);
+                    System.out.println("value to write in excel: " + valueToWrite[i][j]);
+                }
+            }
+
+            // Write the workbook to the file
+            try (FileOutputStream fos = new FileOutputStream(filePath)) {
+                workbook.write(fos);
+                System.out.println("Excel file has been written successfully to: " + filePath);
+            }
+        } catch (Exception e) {
+            System.out.println("Error occurred while writing Excel file:");
+            e.printStackTrace();
+        } finally {
+            // Close the workbook
+            if (workbook != null) {
+                workbook.close();
             }
         }
-        
-
-        // Specify the file path
-        String filePath = "C:\\Users\\Msys\\eclipse-workspace\\sleniumTestNGDemo\\excel\\data2.xlsx";
-        // Write the workbook to the file
-        try (FileOutputStream fos = new FileOutputStream(filePath)) {
-            workbook.write(fos);
-        }
-
-        // Close the workbook
-        workbook.close();
     }
+
 
     
     public void writeDoneToExcel(int rowIndex) throws Exception {

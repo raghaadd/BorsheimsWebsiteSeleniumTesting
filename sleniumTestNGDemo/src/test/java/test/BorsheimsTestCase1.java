@@ -94,6 +94,12 @@ public class BorsheimsTestCase1 {
     	Thread.sleep(1000);
     	driver.findElement(By.id("js-add-to-cart")).sendKeys(Keys.ENTER);
     	Thread.sleep(4000);
+    	
+    	driver.get("https://www.borsheims.com/vhernier-mon-jeu-titanium-link");
+    	Thread.sleep(1000);
+    	driver.findElement(By.id("js-add-to-cart")).sendKeys(Keys.ENTER);
+    	Thread.sleep(4000);
+    	
     	//driver.findElement(By.xpath("//*[@id=\"js-mini-basket-container\"]/div[1]/span")).sendKeys(Keys.ENTER);
 	    Assert.assertTrue(true); // Dummy assertion to simulate test case execution
         excel.writeStatusToExcel(3,"testcase1", "Passed");
@@ -109,6 +115,9 @@ public class BorsheimsTestCase1 {
         driver.findElement(By.xpath("//*[@id=\"js-header-contents\"]/a/img")).click();
         driver.findElement(By.xpath("//*[@id=\"js-header\"]/div[1]/div/div[4]")).click();
         driver.findElement(By.xpath("//*[@id=\"js-mini-basket-container\"]/div[2]/div/a")).sendKeys(Keys.ENTER);
+        
+        //increase the QT.:
+        driver.findElement(By.xpath("//*[@id=\"js-main-content\"]/div/div[1]/div[2]/div/div[2]/div[3]/div[1]/div[3]/div[4]/form/div/span[2]")).click();
 
         // Find all parent divs containing the product details
         List<WebElement> productDivs = driver.findElements(By.cssSelector("div.flex.rigid.row.ai-center.basket-product-row"));
@@ -141,14 +150,21 @@ public class BorsheimsTestCase1 {
             // Get the text of the total price
             String totalPrice = totalPriceElement.getText().trim();
             System.out.println("total price: "+totalPrice);
+            
+            // Find the element containing the quantity input field
+            WebElement quantityInputElement = productDivs.get(i).findElement(By.cssSelector("input#l-quantity"));
+
+            // Get the value attribute of the input element to get the quantity
+            String quantity = quantityInputElement.getAttribute("value").trim();
+            System.out.println("Quantity: " + quantity);
 
             // Write the item details to the array
-            valueToWrite[i + 1] = new String[]{itemName, "1", price, totalPrice};
+            valueToWrite[i + 1] = new String[]{itemName, quantity, price, totalPrice};
         }
 
         // Write item details to Excel
-        ExeclUtilsss excel = new ExeclUtilsss();
-        excel.writeBagPageToExcel(valueToWrite);
+        ExeclUtilsss excel1 = new ExeclUtilsss();
+        excel1.writeBagPageToExcel(valueToWrite,"C:\\Users\\Msys\\eclipse-workspace\\sleniumTestNGDemo\\excel\\data2.xlsx");
         
 	    Assert.assertTrue(true); // Dummy assertion to simulate test case execution
         excel.writeStatusToExcel(4,"testcase1", "Passed");

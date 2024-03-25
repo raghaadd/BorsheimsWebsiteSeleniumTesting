@@ -27,7 +27,7 @@ public class BorsheimsTestCase2 {
 	
 	@Parameters("testCaseNumber")
 	@BeforeTest
-	public void setUpTest(@Optional("8") int testCaseNumber) {
+	public void setUpTest(@Optional("14") int testCaseNumber) {
 		this.testCaseNumber = testCaseNumber;
 		driver=new ChromeDriver();
 		System.out.println("testcaseNo: "+testCaseNumber);
@@ -61,6 +61,11 @@ public class BorsheimsTestCase2 {
 				String faxNo, String company, String address, String city, String state, String otherState, String zipCode, String country,String done ) throws Exception {
 		
 		try {
+			
+	    if ("X".equalsIgnoreCase(done)) {
+	    	System.out.println("User already registered.");
+	        return; // Exit method without proceeding
+	    }
 		
 		expectedUsername=firstName;
 		driver.findElement(By.id("Customer_LoginEmail")).sendKeys(email);

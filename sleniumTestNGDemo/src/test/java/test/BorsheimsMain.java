@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class BorsheimsMain {
     ExeclUtilsss excel = new ExeclUtilsss("testCases");
 
-    @Test (priority = 1)
+    @Test(priority = 1)
     public void readExecutionColumn() throws Exception {
         int executionColumnIndex = 1;
         int rowCount = excel.getRowCount();
@@ -24,7 +24,6 @@ public class BorsheimsMain {
             // For example, execute the test case if it's marked as "X"
             if ("X".equalsIgnoreCase(executionStatus)) {
                 executeTestCase(i); // Pass the row index to execute the corresponding test case
-                break;
             }
         }
     }
@@ -46,7 +45,7 @@ public class BorsheimsMain {
                 break;
             case 2:
                 BorsheimsTestCase2 tc2 = new BorsheimsTestCase2();
-                tc2.setUpTest(13); 
+                tc2.setUpTest(15); 
                 tc2.NavigateWebsite(); 
                 Object[][] testData = tc2.getData();
                 
