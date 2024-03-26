@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5">
+ <test name="TestNormal1">
+	<parameter name="testCaseNumber" value="1"></parameter>
+    <classes>
+      <class name="test.BorsheimsTestCase2"/>
+    </classes>
+  </test> 
+   <test name="TestNormal2">
+	<parameter name="testCaseNumber" value="2"></parameter>
+    <classes>
+      <class name="test.BorsheimsTestCase2"/>
+    </classes>
+  </test>
+   
+   <test name="TestNormal3">
+	<parameter name="testCaseNumber" value="3"></parameter>
+    <classes>
+      <class name="test.BorsheimsTestCase2"/>
+    </classes>
+  </test> 
+  
+     <test name="TestNormal4">
+	<parameter name="testCaseNumber" value="4"></parameter>
+    <classes>
+      <class name="test.BorsheimsTestCase2"/>
+    </classes>
+  </test> 
+  
+     <test name="TestNormal5">
+	<parameter name="testCaseNumber" value="5"></parameter>
+    <classes>
+      <class name="test.BorsheimsTestCase2"/>
+    </classes>
+  </test> 
+
+</suite> <!-- Suite -->

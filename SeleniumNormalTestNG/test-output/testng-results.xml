@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="25" passed="25" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-25T15:58:24 IST" name="Suite" finished-at="2024-03-25T16:03:33 IST" duration-ms="308631">
+    <groups>
+    </groups>
+    <test started-at="2024-03-25T15:58:24 IST" name="TestNormal1" finished-at="2024-03-25T15:59:37 IST" duration-ms="72515">
+      <class name="test.BorsheimsTestCase2">
+        <test-method is-config="true" signature="setUpTest(int)[pri:0, instance:test.BorsheimsTestCase2@1e0b4072]" started-at="2024-03-25T15:58:24 IST" name="setUpTest" finished-at="2024-03-25T15:58:29 IST" duration-ms="4274" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="NavigateWebsite()[pri:0, instance:test.BorsheimsTestCase2@1e0b4072]" started-at="2024-03-25T15:58:29 IST" name="NavigateWebsite" finished-at="2024-03-25T15:58:58 IST" duration-ms="29698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateWebsite -->
+        <test-method signature="registerInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.BorsheimsTestCase2@1e0b4072]" started-at="2024-03-25T15:58:59 IST" name="registerInformation" data-provider="test1data" finished-at="2024-03-25T15:59:08 IST" duration-ms="9021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user11]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[userrr1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test1@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Bell]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[90202]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="15">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerInformation -->
+        <test-method signature="usernameDisplayed()[pri:2, instance:test.BorsheimsTestCase2@1e0b4072]" started-at="2024-03-25T15:59:08 IST" name="usernameDisplayed" finished-at="2024-03-25T15:59:08 IST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameDisplayed -->
+        <test-method signature="logoutFunction()[pri:3, instance:test.BorsheimsTestCase2@1e0b4072]" started-at="2024-03-25T15:59:08 IST" name="logoutFunction" finished-at="2024-03-25T15:59:21 IST" duration-ms="12669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFunction -->
+        <test-method signature="loginInformation(java.lang.String,java.lang.String)[pri:4, instance:test.BorsheimsTestCase2@1e0b4072]" started-at="2024-03-25T15:59:21 IST" name="loginInformation" data-provider="test2data" finished-at="2024-03-25T15:59:33 IST" duration-ms="11753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.BorsheimsTestCase2@1e0b4072]" started-at="2024-03-25T15:59:33 IST" name="tearDown" finished-at="2024-03-25T15:59:37 IST" duration-ms="3905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.BorsheimsTestCase2 -->
+    </test> <!-- TestNormal1 -->
+    <test started-at="2024-03-25T15:59:37 IST" name="TestNormal2" finished-at="2024-03-25T16:00:39 IST" duration-ms="61525">
+      <class name="test.BorsheimsTestCase2">
+        <test-method is-config="true" signature="setUpTest(int)[pri:0, instance:test.BorsheimsTestCase2@2034b64c]" started-at="2024-03-25T15:59:37 IST" name="setUpTest" finished-at="2024-03-25T15:59:39 IST" duration-ms="2347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="NavigateWebsite()[pri:0, instance:test.BorsheimsTestCase2@2034b64c]" started-at="2024-03-25T15:59:39 IST" name="NavigateWebsite" finished-at="2024-03-25T16:00:00 IST" duration-ms="20915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateWebsite -->
+        <test-method signature="registerInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.BorsheimsTestCase2@2034b64c]" started-at="2024-03-25T16:00:00 IST" name="registerInformation" data-provider="test1data" finished-at="2024-03-25T16:00:09 IST" duration-ms="8777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user22]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[userrr2]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test2@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Bell]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[90202]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="15">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerInformation -->
+        <test-method signature="usernameDisplayed()[pri:2, instance:test.BorsheimsTestCase2@2034b64c]" started-at="2024-03-25T16:00:09 IST" name="usernameDisplayed" finished-at="2024-03-25T16:00:10 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameDisplayed -->
+        <test-method signature="logoutFunction()[pri:3, instance:test.BorsheimsTestCase2@2034b64c]" started-at="2024-03-25T16:00:10 IST" name="logoutFunction" finished-at="2024-03-25T16:00:22 IST" duration-ms="11933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFunction -->
+        <test-method signature="loginInformation(java.lang.String,java.lang.String)[pri:4, instance:test.BorsheimsTestCase2@2034b64c]" started-at="2024-03-25T16:00:22 IST" name="loginInformation" data-provider="test2data" finished-at="2024-03-25T16:00:35 IST" duration-ms="13061" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.BorsheimsTestCase2@2034b64c]" started-at="2024-03-25T16:00:35 IST" name="tearDown" finished-at="2024-03-25T16:00:39 IST" duration-ms="3851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.BorsheimsTestCase2 -->
+    </test> <!-- TestNormal2 -->
+    <test started-at="2024-03-25T16:00:39 IST" name="TestNormal3" finished-at="2024-03-25T16:01:36 IST" duration-ms="57692">
+      <class name="test.BorsheimsTestCase2">
+        <test-method is-config="true" signature="setUpTest(int)[pri:0, instance:test.BorsheimsTestCase2@1cf6d1be]" started-at="2024-03-25T16:00:39 IST" name="setUpTest" finished-at="2024-03-25T16:00:41 IST" duration-ms="2455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="NavigateWebsite()[pri:0, instance:test.BorsheimsTestCase2@1cf6d1be]" started-at="2024-03-25T16:00:41 IST" name="NavigateWebsite" finished-at="2024-03-25T16:00:58 IST" duration-ms="16702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateWebsite -->
+        <test-method signature="registerInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.BorsheimsTestCase2@1cf6d1be]" started-at="2024-03-25T16:00:58 IST" name="registerInformation" data-provider="test1data" finished-at="2024-03-25T16:01:06 IST" duration-ms="8458" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user33]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[userrr3]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test3@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Bell]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[90202]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="15">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerInformation -->
+        <test-method signature="usernameDisplayed()[pri:2, instance:test.BorsheimsTestCase2@1cf6d1be]" started-at="2024-03-25T16:01:06 IST" name="usernameDisplayed" finished-at="2024-03-25T16:01:07 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameDisplayed -->
+        <test-method signature="logoutFunction()[pri:3, instance:test.BorsheimsTestCase2@1cf6d1be]" started-at="2024-03-25T16:01:07 IST" name="logoutFunction" finished-at="2024-03-25T16:01:19 IST" duration-ms="12170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFunction -->
+        <test-method signature="loginInformation(java.lang.String,java.lang.String)[pri:4, instance:test.BorsheimsTestCase2@1cf6d1be]" started-at="2024-03-25T16:01:19 IST" name="loginInformation" data-provider="test2data" finished-at="2024-03-25T16:01:32 IST" duration-ms="13408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.BorsheimsTestCase2@1cf6d1be]" started-at="2024-03-25T16:01:32 IST" name="tearDown" finished-at="2024-03-25T16:01:36 IST" duration-ms="3939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.BorsheimsTestCase2 -->
+    </test> <!-- TestNormal3 -->
+    <test started-at="2024-03-25T16:01:36 IST" name="TestNormal4" finished-at="2024-03-25T16:02:34 IST" duration-ms="58132">
+      <class name="test.BorsheimsTestCase2">
+        <test-method is-config="true" signature="setUpTest(int)[pri:0, instance:test.BorsheimsTestCase2@5149d738]" started-at="2024-03-25T16:01:36 IST" name="setUpTest" finished-at="2024-03-25T16:01:38 IST" duration-ms="2194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="NavigateWebsite()[pri:0, instance:test.BorsheimsTestCase2@5149d738]" started-at="2024-03-25T16:01:38 IST" name="NavigateWebsite" finished-at="2024-03-25T16:01:56 IST" duration-ms="17101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateWebsite -->
+        <test-method signature="registerInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.BorsheimsTestCase2@5149d738]" started-at="2024-03-25T16:01:56 IST" name="registerInformation" data-provider="test1data" finished-at="2024-03-25T16:02:04 IST" duration-ms="8443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test4@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user44]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[userrr4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test4@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Bell]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[90202]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="15">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerInformation -->
+        <test-method signature="usernameDisplayed()[pri:2, instance:test.BorsheimsTestCase2@5149d738]" started-at="2024-03-25T16:02:04 IST" name="usernameDisplayed" finished-at="2024-03-25T16:02:04 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameDisplayed -->
+        <test-method signature="logoutFunction()[pri:3, instance:test.BorsheimsTestCase2@5149d738]" started-at="2024-03-25T16:02:04 IST" name="logoutFunction" finished-at="2024-03-25T16:02:17 IST" duration-ms="12144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFunction -->
+        <test-method signature="loginInformation(java.lang.String,java.lang.String)[pri:4, instance:test.BorsheimsTestCase2@5149d738]" started-at="2024-03-25T16:02:17 IST" name="loginInformation" data-provider="test2data" finished-at="2024-03-25T16:02:31 IST" duration-ms="13882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test4@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.BorsheimsTestCase2@5149d738]" started-at="2024-03-25T16:02:31 IST" name="tearDown" finished-at="2024-03-25T16:02:34 IST" duration-ms="3860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.BorsheimsTestCase2 -->
+    </test> <!-- TestNormal4 -->
+    <test started-at="2024-03-25T16:02:34 IST" name="TestNormal5" finished-at="2024-03-25T16:03:33 IST" duration-ms="58663">
+      <class name="test.BorsheimsTestCase2">
+        <test-method is-config="true" signature="setUpTest(int)[pri:0, instance:test.BorsheimsTestCase2@4b013c76]" started-at="2024-03-25T16:02:34 IST" name="setUpTest" finished-at="2024-03-25T16:02:37 IST" duration-ms="2357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method signature="NavigateWebsite()[pri:0, instance:test.BorsheimsTestCase2@4b013c76]" started-at="2024-03-25T16:02:37 IST" name="NavigateWebsite" finished-at="2024-03-25T16:02:53 IST" duration-ms="16428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateWebsite -->
+        <test-method signature="registerInformation(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:test.BorsheimsTestCase2@4b013c76]" started-at="2024-03-25T16:02:53 IST" name="registerInformation" data-provider="test1data" finished-at="2024-03-25T16:03:02 IST" duration-ms="8235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test5@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[user55]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[userrr5]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[test5@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2147483647]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Bell]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[90202]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[United States]]>
+              </value>
+            </param>
+            <param index="15">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerInformation -->
+        <test-method signature="usernameDisplayed()[pri:2, instance:test.BorsheimsTestCase2@4b013c76]" started-at="2024-03-25T16:03:02 IST" name="usernameDisplayed" finished-at="2024-03-25T16:03:02 IST" duration-ms="385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameDisplayed -->
+        <test-method signature="logoutFunction()[pri:3, instance:test.BorsheimsTestCase2@4b013c76]" started-at="2024-03-25T16:03:02 IST" name="logoutFunction" finished-at="2024-03-25T16:03:14 IST" duration-ms="12537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFunction -->
+        <test-method signature="loginInformation(java.lang.String,java.lang.String)[pri:4, instance:test.BorsheimsTestCase2@4b013c76]" started-at="2024-03-25T16:03:15 IST" name="loginInformation" data-provider="test2data" finished-at="2024-03-25T16:03:29 IST" duration-ms="14705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test5@testqa2024.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wtx@11924]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInformation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.BorsheimsTestCase2@4b013c76]" started-at="2024-03-25T16:03:29 IST" name="tearDown" finished-at="2024-03-25T16:03:33 IST" duration-ms="3831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.BorsheimsTestCase2 -->
+    </test> <!-- TestNormal5 -->
+  </suite> <!-- Suite -->
+</testng-results>

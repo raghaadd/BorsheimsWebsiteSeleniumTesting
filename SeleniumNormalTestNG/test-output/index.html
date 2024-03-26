@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Msys\eclipse-workspace\SeleniumNormalTestNG\testngCase2.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="NavigateWebsite">NavigateWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="NavigateWebsite">NavigateWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="NavigateWebsite">NavigateWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="NavigateWebsite">NavigateWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="NavigateWebsite">NavigateWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="loginInformation(test1@testqa2024.com, wtx@11924)">loginInformation(test1@testqa2024.com, wtx@11924)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="loginInformation(test2@testqa2024.com, wtx@11924)">loginInformation(test2@testqa2024.com, wtx@11924)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="loginInformation(test3@testqa2024.com, wtx@11924)">loginInformation(test3@testqa2024.com, wtx@11924)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="loginInformation(test4@testqa2024.com, wtx@11924)">loginInformation(test4@testqa2024.com, wtx@11924)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="loginInformation(test5@testqa2024.com, wtx@11924)">loginInformation(test5@testqa2024.com, wtx@11924)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="logoutFunction">logoutFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="logoutFunction">logoutFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="logoutFunction">logoutFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="logoutFunction">logoutFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="logoutFunction">logoutFunction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="registerInformation(test1@testqa2024.com, wtx@11924, wtx@11924, user11, userrr1, test1@testqa2024.com, 2147483647, 12345...)">registerInformation(test1@testqa2024.com, wtx@11924, wtx@11924, user11, userrr1, test1@testqa2024.com, 2147483647, 12345...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="registerInformation(test2@testqa2024.com, wtx@11924, wtx@11924, user22, userrr2, test2@testqa2024.com, 2147483647, 12345...)">registerInformation(test2@testqa2024.com, wtx@11924, wtx@11924, user22, userrr2, test2@testqa2024.com, 2147483647, 12345...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="registerInformation(test3@testqa2024.com, wtx@11924, wtx@11924, user33, userrr3, test3@testqa2024.com, 2147483647, 12345...)">registerInformation(test3@testqa2024.com, wtx@11924, wtx@11924, user33, userrr3, test3@testqa2024.com, 2147483647, 12345...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="registerInformation(test4@testqa2024.com, wtx@11924, wtx@11924, user44, userrr4, test4@testqa2024.com, 2147483647, 12345...)">registerInformation(test4@testqa2024.com, wtx@11924, wtx@11924, user44, userrr4, test4@testqa2024.com, 2147483647, 12345...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="registerInformation(test5@testqa2024.com, wtx@11924, wtx@11924, user55, userrr5, test5@testqa2024.com, 2147483647, 12345...)">registerInformation(test5@testqa2024.com, wtx@11924, wtx@11924, user55, userrr5, test5@testqa2024.com, 2147483647, 12345...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="usernameDisplayed">usernameDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="usernameDisplayed">usernameDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="usernameDisplayed">usernameDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="usernameDisplayed">usernameDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.BorsheimsTestCase2" class="method navigator-link" hash-for-method="usernameDisplayed">usernameDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.BorsheimsTestCase2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateWebsite">
+                  </a> <!-- NavigateWebsite -->
+                  <span class="method-name">NavigateWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateWebsite">
+                  </a> <!-- NavigateWebsite -->
+                  <span class="method-name">NavigateWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateWebsite">
+                  </a> <!-- NavigateWebsite -->
+                  <span class="method-name">NavigateWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateWebsite">
+                  </a> <!-- NavigateWebsite -->
+                  <span class="method-name">NavigateWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateWebsite">
+                  </a> <!-- NavigateWebsite -->
+                  <span class="method-name">NavigateWebsite</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginInformation(test1@testqa2024.com, wtx@11924)">
+                  </a> <!-- loginInformation(test1@testqa2024.com, wtx@11924) -->
+                  <span class="method-name">loginInformation</span>
+                  <span class="parameters">(test1@testqa2024.com, wtx@11924)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginInformation(test2@testqa2024.com, wtx@11924)">
+                  </a> <!-- loginInformation(test2@testqa2024.com, wtx@11924) -->
+                  <span class="method-name">loginInformation</span>
+                  <span class="parameters">(test2@testqa2024.com, wtx@11924)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginInformation(test3@testqa2024.com, wtx@11924)">
+                  </a> <!-- loginInformation(test3@testqa2024.com, wtx@11924) -->
+                  <span class="method-name">loginInformation</span>
+                  <span class="parameters">(test3@testqa2024.com, wtx@11924)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginInformation(test4@testqa2024.com, wtx@11924)">
+                  </a> <!-- loginInformation(test4@testqa2024.com, wtx@11924) -->
+                  <span class="method-name">loginInformation</span>
+                  <span class="parameters">(test4@testqa2024.com, wtx@11924)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginInformation(test5@testqa2024.com, wtx@11924)">
+                  </a> <!-- loginInformation(test5@testqa2024.com, wtx@11924) -->
+                  <span class="method-name">loginInformation</span>
+                  <span class="parameters">(test5@testqa2024.com, wtx@11924)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutFunction">
+                  </a> <!-- logoutFunction -->
+                  <span class="method-name">logoutFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutFunction">
+                  </a> <!-- logoutFunction -->
+                  <span class="method-name">logoutFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutFunction">
+                  </a> <!-- logoutFunction -->
+                  <span class="method-name">logoutFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutFunction">
+                  </a> <!-- logoutFunction -->
+                  <span class="method-name">logoutFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutFunction">
+                  </a> <!-- logoutFunction -->
+                  <span class="method-name">logoutFunction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerInformation(test1@testqa2024.com, wtx@11924, wtx@11924, user11, userrr1, test1@testqa2024.com, 2147483647, 12345...)">
+                  </a> <!-- registerInformation(test1@testqa2024.com, wtx@11924, wtx@11924, user11, userrr1, test1@testqa2024.com, 2147483647, 12345...) -->
+                  <span class="method-name">registerInformation</span>
+                  <span class="parameters">(test1@testqa2024.com, wtx@11924, wtx@11924, user11, userrr1, test1@testqa2024.com, 2147483647, 12345678, QA, California, Bell, California, California, 90202, United States, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerInformation(test2@testqa2024.com, wtx@11924, wtx@11924, user22, userrr2, test2@testqa2024.com, 2147483647, 12345...)">
+                  </a> <!-- registerInformation(test2@testqa2024.com, wtx@11924, wtx@11924, user22, userrr2, test2@testqa2024.com, 2147483647, 12345...) -->
+                  <span class="method-name">registerInformation</span>
+                  <span class="parameters">(test2@testqa2024.com, wtx@11924, wtx@11924, user22, userrr2, test2@testqa2024.com, 2147483647, 12345678, QA, California, Bell, California, California, 90202, United States, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerInformation(test3@testqa2024.com, wtx@11924, wtx@11924, user33, userrr3, test3@testqa2024.com, 2147483647, 12345...)">
+                  </a> <!-- registerInformation(test3@testqa2024.com, wtx@11924, wtx@11924, user33, userrr3, test3@testqa2024.com, 2147483647, 12345...) -->
+                  <span class="method-name">registerInformation</span>
+                  <span class="parameters">(test3@testqa2024.com, wtx@11924, wtx@11924, user33, userrr3, test3@testqa2024.com, 2147483647, 12345678, QA, California, Bell, California, California, 90202, United States, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerInformation(test4@testqa2024.com, wtx@11924, wtx@11924, user44, userrr4, test4@testqa2024.com, 2147483647, 12345...)">
+                  </a> <!-- registerInformation(test4@testqa2024.com, wtx@11924, wtx@11924, user44, userrr4, test4@testqa2024.com, 2147483647, 12345...) -->
+                  <span class="method-name">registerInformation</span>
+                  <span class="parameters">(test4@testqa2024.com, wtx@11924, wtx@11924, user44, userrr4, test4@testqa2024.com, 2147483647, 12345678, QA, California, Bell, California, California, 90202, United States, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerInformation(test5@testqa2024.com, wtx@11924, wtx@11924, user55, userrr5, test5@testqa2024.com, 2147483647, 12345...)">
+                  </a> <!-- registerInformation(test5@testqa2024.com, wtx@11924, wtx@11924, user55, userrr5, test5@testqa2024.com, 2147483647, 12345...) -->
+                  <span class="method-name">registerInformation</span>
+                  <span class="parameters">(test5@testqa2024.com, wtx@11924, wtx@11924, user55, userrr5, test5@testqa2024.com, 2147483647, 12345678, QA, California, Bell, California, California, 90202, United States, null)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameDisplayed">
+                  </a> <!-- usernameDisplayed -->
+                  <span class="method-name">usernameDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameDisplayed">
+                  </a> <!-- usernameDisplayed -->
+                  <span class="method-name">usernameDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameDisplayed">
+                  </a> <!-- usernameDisplayed -->
+                  <span class="method-name">usernameDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameDisplayed">
+                  </a> <!-- usernameDisplayed -->
+                  <span class="method-name">usernameDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="usernameDisplayed">
+                  </a> <!-- usernameDisplayed -->
+                  <span class="method-name">usernameDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Msys\eclipse-workspace\SeleniumNormalTestNG\testngCase2.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestNormal1&quot;&gt;
+    &lt;parameter name=&quot;testCaseNumber&quot; value=&quot;1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.BorsheimsTestCase2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestNormal1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestNormal2&quot;&gt;
+    &lt;parameter name=&quot;testCaseNumber&quot; value=&quot;2&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.BorsheimsTestCase2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestNormal2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestNormal3&quot;&gt;
+    &lt;parameter name=&quot;testCaseNumber&quot; value=&quot;3&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.BorsheimsTestCase2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestNormal3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestNormal4&quot;&gt;
+    &lt;parameter name=&quot;testCaseNumber&quot; value=&quot;4&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.BorsheimsTestCase2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestNormal4 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestNormal5&quot;&gt;
+    &lt;parameter name=&quot;testCaseNumber&quot; value=&quot;5&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.BorsheimsTestCase2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestNormal5 --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestNormal1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestNormal2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestNormal3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestNormal4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestNormal5 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'NavigateWebsite')
+data.setCell(0, 2, 'test.BorsheimsTestCase2')
+data.setCell(0, 3, 29698);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'NavigateWebsite')
+data.setCell(1, 2, 'test.BorsheimsTestCase2')
+data.setCell(1, 3, 20915);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'NavigateWebsite')
+data.setCell(2, 2, 'test.BorsheimsTestCase2')
+data.setCell(2, 3, 17101);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'NavigateWebsite')
+data.setCell(3, 2, 'test.BorsheimsTestCase2')
+data.setCell(3, 3, 16702);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'NavigateWebsite')
+data.setCell(4, 2, 'test.BorsheimsTestCase2')
+data.setCell(4, 3, 16428);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginInformation')
+data.setCell(5, 2, 'test.BorsheimsTestCase2')
+data.setCell(5, 3, 14705);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginInformation')
+data.setCell(6, 2, 'test.BorsheimsTestCase2')
+data.setCell(6, 3, 13882);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginInformation')
+data.setCell(7, 2, 'test.BorsheimsTestCase2')
+data.setCell(7, 3, 13408);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginInformation')
+data.setCell(8, 2, 'test.BorsheimsTestCase2')
+data.setCell(8, 3, 13061);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'logoutFunction')
+data.setCell(9, 2, 'test.BorsheimsTestCase2')
+data.setCell(9, 3, 12669);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'logoutFunction')
+data.setCell(10, 2, 'test.BorsheimsTestCase2')
+data.setCell(10, 3, 12537);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'logoutFunction')
+data.setCell(11, 2, 'test.BorsheimsTestCase2')
+data.setCell(11, 3, 12170);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'logoutFunction')
+data.setCell(12, 2, 'test.BorsheimsTestCase2')
+data.setCell(12, 3, 12144);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'logoutFunction')
+data.setCell(13, 2, 'test.BorsheimsTestCase2')
+data.setCell(13, 3, 11933);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginInformation')
+data.setCell(14, 2, 'test.BorsheimsTestCase2')
+data.setCell(14, 3, 11753);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'registerInformation')
+data.setCell(15, 2, 'test.BorsheimsTestCase2')
+data.setCell(15, 3, 9021);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'registerInformation')
+data.setCell(16, 2, 'test.BorsheimsTestCase2')
+data.setCell(16, 3, 8777);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'registerInformation')
+data.setCell(17, 2, 'test.BorsheimsTestCase2')
+data.setCell(17, 3, 8458);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'registerInformation')
+data.setCell(18, 2, 'test.BorsheimsTestCase2')
+data.setCell(18, 3, 8443);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'registerInformation')
+data.setCell(19, 2, 'test.BorsheimsTestCase2')
+data.setCell(19, 3, 8235);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'usernameDisplayed')
+data.setCell(20, 2, 'test.BorsheimsTestCase2')
+data.setCell(20, 3, 652);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'usernameDisplayed')
+data.setCell(21, 2, 'test.BorsheimsTestCase2')
+data.setCell(21, 3, 425);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'usernameDisplayed')
+data.setCell(22, 2, 'test.BorsheimsTestCase2')
+data.setCell(22, 3, 385);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'usernameDisplayed')
+data.setCell(23, 2, 'test.BorsheimsTestCase2')
+data.setCell(23, 3, 381);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'usernameDisplayed')
+data.setCell(24, 2, 'test.BorsheimsTestCase2')
+data.setCell(24, 3, 303);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.BorsheimsTestCase2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest(1)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">NavigateWebsite</span>
+                <span class="method-start">4344 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerInformation(test1@testqa2024.com, wtx@11924, wtx@11924, user11, userrr1, test1@testqa2024.com, 2147483647, 12345...)</span>
+                <span class="method-start">34285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usernameDisplayed</span>
+                <span class="method-start">43324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutFunction</span>
+                <span class="method-start">43979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginInformation(test1@testqa2024.com, wtx@11924)</span>
+                <span class="method-start">56834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">68596 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest(2)</span>
+                <span class="method-start">72574 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">NavigateWebsite</span>
+                <span class="method-start">74924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerInformation(test2@testqa2024.com, wtx@11924, wtx@11924, user22, userrr2, test2@testqa2024.com, 2147483647, 12345...)</span>
+                <span class="method-start">95949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usernameDisplayed</span>
+                <span class="method-start">104743 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutFunction</span>
+                <span class="method-start">105171 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginInformation(test2@testqa2024.com, wtx@11924)</span>
+                <span class="method-start">117183 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">130246 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest(3)</span>
+                <span class="method-start">134110 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">NavigateWebsite</span>
+                <span class="method-start">136573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerInformation(test3@testqa2024.com, wtx@11924, wtx@11924, user33, userrr3, test3@testqa2024.com, 2147483647, 12345...)</span>
+                <span class="method-start">153367 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usernameDisplayed</span>
+                <span class="method-start">161827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutFunction</span>
+                <span class="method-start">162216 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginInformation(test3@testqa2024.com, wtx@11924)</span>
+                <span class="method-start">174451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">187861 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest(4)</span>
+                <span class="method-start">191814 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">NavigateWebsite</span>
+                <span class="method-start">194010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerInformation(test4@testqa2024.com, wtx@11924, wtx@11924, user44, userrr4, test4@testqa2024.com, 2147483647, 12345...)</span>
+                <span class="method-start">211238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usernameDisplayed</span>
+                <span class="method-start">219684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutFunction</span>
+                <span class="method-start">219990 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginInformation(test4@testqa2024.com, wtx@11924)</span>
+                <span class="method-start">232200 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">246084 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpTest(5)</span>
+                <span class="method-start">249955 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">NavigateWebsite</span>
+                <span class="method-start">252313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerInformation(test5@testqa2024.com, wtx@11924, wtx@11924, user55, userrr5, test5@testqa2024.com, 2147483647, 12345...)</span>
+                <span class="method-start">268846 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">usernameDisplayed</span>
+                <span class="method-start">277087 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoutFunction</span>
+                <span class="method-start">277475 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginInformation(test5@testqa2024.com, wtx@11924)</span>
+                <span class="method-start">290079 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">304786 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
